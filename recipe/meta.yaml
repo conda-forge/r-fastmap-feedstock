@@ -1,4 +1,4 @@
-{% set version = '1.0.1' %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fastmap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fastmap/fastmap_{{ version }}.tar.gz
-  sha256: 4778b05dfebd356f8df980dfeff3b973a72bca14898f870e5c40c1d84db9faec
+  sha256: 9113e526b4c096302cfeae660a06de2c4c82ae4e2d3d6ef53af6de812d4c822b
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -44,14 +44,11 @@ test:
 about:
   home: https://r-lib.github.io/fastmap/, https://github.com/r-lib/fastmap
   license: MIT
-  summary: Fast implementation of a key-value store. Environments are commonly used as key-value
-    stores, but every time a new key is used, it is added to R's global symbol table,
-    causing a small amount of memory leakage. This can be problematic in cases where
-    many different keys are used. Fastmap avoids this memory leak issue by implementing
-    the map using data structures in C++.
+  summary: Fast implementation of a key-value store. Environments are commonly used as key-value stores, but every time a new key is used, it is added to R's global symbol table, causing a small amount of memory leakage. This can be problematic in cases where many different keys are used. Fastmap avoids this memory leak
+    issue by implementing the map using data structures in C++.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
 
 extra:
