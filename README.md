@@ -5,11 +5,9 @@ Home: https://r-lib.github.io/fastmap/, https://github.com/r-lib/fastmap
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastmap-feedstock/blob/master/LICENSE.txt)
 
 Summary: Fast implementation of a key-value store. Environments are commonly used as key-value stores, but every time a new key is used, it is added to R's global symbol table, causing a small amount of memory leakage. This can be problematic in cases where many different keys are used. Fastmap avoids this memory leak issue by implementing the map using data structures in C++.
-
-
 
 Current build status
 ====================
@@ -36,73 +34,73 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_aarch64_r_base3.6target_platformlinux-aarch64</td>
+              <td>linux_64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base3.6target_platformlinux-aarch64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_r_base4.0target_platformlinux-aarch64</td>
+              <td>linux_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base4.0target_platformlinux-aarch64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_r_base3.6target_platformlinux-ppc64le</td>
+              <td>linux_aarch64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base3.6target_platformlinux-ppc64le" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_r_base4.0target_platformlinux-ppc64le</td>
+              <td>linux_aarch64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base4.0target_platformlinux-ppc64le" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_r_base3.6target_platformlinux-64</td>
+              <td>linux_ppc64le_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_r_base3.6target_platformlinux-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_r_base4.0target_platformlinux-64</td>
+              <td>linux_ppc64le_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_r_base4.0target_platformlinux-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_r_base3.6target_platformosx-64</td>
+              <td>osx_64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=osx&configuration=osx_r_base3.6target_platformosx-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_r_base4.0target_platformosx-64</td>
+              <td>osx_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=osx&configuration=osx_r_base4.0target_platformosx-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_r_base3.6target_platformwin-64</td>
+              <td>win_64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=win&configuration=win_r_base3.6target_platformwin-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=win&configuration=win_64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_r_base4.0target_platformwin-64</td>
+              <td>win_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8093&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=win&configuration=win_r_base4.0target_platformwin-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-fastmap-feedstock?branchName=master&jobName=win&configuration=win_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr>
