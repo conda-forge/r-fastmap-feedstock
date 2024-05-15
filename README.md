@@ -3,6 +3,7 @@ About r-fastmap-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastmap-feedstock/blob/main/LICENSE.txt)
 
+
 About r-fastmap
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://r-lib.github.io/fastmap/, https://github.com/r-lib/fastmap
 Package license: MIT
 
 Summary: Fast implementation of a key-value store. Environments are commonly used as key-value stores, but every time a new key is used, it is added to R's global symbol table, causing a small amount of memory leakage. This can be problematic in cases where many different keys are used. Fastmap avoids this memory leak issue by implementing the map using data structures in C++.
+
 About r-fastmap
 ---------------
 
@@ -195,7 +197,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
